@@ -3,7 +3,7 @@
 Jogo criado para consolidar alguns conceitos básicos em desenvolvimento de jogos via Unity, por isso o jogo não tem muitas coisas ainda por se tratar de um aprendizado.
 
 
-#Ideias de implementações a serem adicionadas no futuro:
+# Ideias de implementações a serem adicionadas no futuro:
 
 - Adição de vitória (já em construção no momento);
 - Adição de respawn após vitória;
@@ -12,7 +12,7 @@ Jogo criado para consolidar alguns conceitos básicos em desenvolvimento de jogo
 - Adição de opção para restart no jogo;
   
 
-  #Ideias intermediarias:
+## deias intermediarias:
 
 - Adição de proposito no jogo;
 - Adição de Buffs e Debuffs;
