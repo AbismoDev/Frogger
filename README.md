@@ -17,7 +17,7 @@ Jogo criado para consolidar alguns conceitos básicos em desenvolvimento de jogo
 - Adição de proposito no jogo;
 - Adição de Buffs e Debuffs;
 - Adição de Gráficos;
-- Adição de trilha sonora;
+- Adição de trilha sonora;  
 ... muito mais!
   
 
