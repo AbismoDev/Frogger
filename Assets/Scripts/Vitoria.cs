@@ -5,17 +5,16 @@ using UnityEngine;
 public class Vitoria : MonoBehaviour
 {
 
+    public GameObject player;
+
     /* Em Construção */
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.gameObject.tag == "Player")
+        {
+            player.transform.position = new Vector3(-0.02f, -4.3f, 0);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

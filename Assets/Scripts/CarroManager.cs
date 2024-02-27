@@ -6,8 +6,14 @@ public class CarroManager : MonoBehaviour
 {
 
     public GameObject carro_;
+    ScoreManager score_manager;
 
     float cooldown = 0.5f;
+
+    private void Start()
+    {
+        score_manager = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreManager>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -31,7 +37,7 @@ public class CarroManager : MonoBehaviour
         {
             //Faz uma ação e reseta o cooldown
             SpawnCarro();
-            cooldown = 5;
+            cooldown = (5 - (score_manager.score / 10));
         }
         else
         {

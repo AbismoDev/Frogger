@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMoviment : MonoBehaviour
 {
     EntityStats entity_stats;
+    public GameObject game_over;
 
     float move_speed;
 
@@ -45,6 +46,8 @@ public class PlayerMoviment : MonoBehaviour
         if(collision.gameObject.tag == "carToRight" || collision.gameObject.tag == "carToLeft")
         {
             Destroy(this.gameObject);
+            this.enabled = false;
+            game_over.SetActive(true);
         }
     }
 }
