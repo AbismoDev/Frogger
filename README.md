@@ -5,10 +5,10 @@ Jogo criado para consolidar alguns conceitos básicos em desenvolvimento de jogo
 
 ## Ideias de implementações a serem adicionadas no futuro:
 
-- Adição de vitória (já em construção no momento);
-- Adição de respawn após vitória;
+- [x]Adição de vitória (já em construção no momento);
+- [x] Adição de respawn após vitória;
 - Adição de vidas para o jogador;
-- Adição de um Game Over;
+- [x] Adição de um Game Over;
 - Adição de opção para restart no jogo;
   
 
